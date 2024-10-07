@@ -8,11 +8,11 @@ import './styles/App.scss';
 function App() {
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/project/:projectId" element={<ProjectPage />} />
+          {/* <Route path="/project/:projectId" element={<ProjectPage />} /> */}
         </Routes>
       </main>
     </Router>
