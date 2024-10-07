@@ -5,6 +5,9 @@ import brainflixImg from '../../assets/brainflix.png';
 import bandsiteImg from '../../assets/bandsite.png';
 import nytImg from '../../assets/nyt-daily-bites.png';
 import instockImg from '../../assets/instock.png';
+import emailIcon from '../../assets/gmail.webp';
+import linkedinIcon from '../../assets/linkedin.png';
+import githubIcon from '../../assets/github.png';
 import './HomePage.scss';
 
 const HomePage = () => {
@@ -39,12 +42,12 @@ const HomePage = () => {
           <Link to="/project/instock" className="homepage__project-card">
             <img src={instockImg} alt="Instock" className="homepage__project-image" />
             <h3 className="homepage__project-title">Instock</h3>
-            <p className="homepage__project-summary">An inventory management system for efficient tracking.</p>
+            <p className="homepage__project-summary">An inventory management system for efficient tracking. An inventory management system for efficient tracking.</p>
           </Link>
           <Link to="/project/nyt-daily-bites" className="homepage__project-card">
             <img src={nytImg} alt="New York Times Daily Bites" className="homepage__project-image" />
             <h3 className="homepage__project-title">New York Times Daily Bites</h3>
-            <p className="homepage__project-summary">An interactive platform to engage NYT readers.</p>
+            <p className="homepage__project-summary">An interactive platform to engage NYT readers. An inventory management system for efficient tracking.</p>
           </Link>
         </div>
       </section>
@@ -66,10 +69,18 @@ const HomePage = () => {
       </section>
 
       <footer className="homepage__footer">
-        <a href="mailto:your-email@gmail.com" className="homepage__icon"><i className="fas fa-envelope"></i> Gmail</a>
-        <a href="https://www.linkedin.com/in/your-profile" className="homepage__icon"><i className="fab fa-linkedin"></i> LinkedIn</a>
-        <a href="https://github.com/your-username" className="homepage__icon"><i className="fab fa-github"></i> GitHub</a>
+      <a href="https://github.com/batradev" target="_blank" rel="noopener noreferrer" className="homepage__icon">
+          <img src={githubIcon} alt="GitHub" className="homepage__footer-icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/ybatrakova" target="_blank" rel="noopener noreferrer" className="homepage__icon">
+          <img src={linkedinIcon} alt="LinkedIn" className="homepage__footer-icon" />
+        </a>
+        <a href="batrakova.yulia@gmail.com" className="homepage__icon">
+          <img src={emailIcon} alt="Email" className="homepage__footer-icon" />
+        </a>
+       
       </footer>
+      
     </div>
   );
 };
