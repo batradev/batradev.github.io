@@ -1,18 +1,19 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage/HomePage';
-import ProjectPage from './pages/ProjectPage/ProjectPage';
-import Header from './components/Header/Header';
-import './styles/App.scss';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage/HomePage";
+import MnemaPage from "./pages/MnemaPage/MnemaPage";
+import Header from "./components/Header/Header";
+import "./styles/App.scss";
 
 function App() {
   return (
     <Router>
       <Header />
-      <main>
+      <main style={{ marginTop: "40px" }}>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* <Route path="/project/:projectId" element={<ProjectPage />} /> */}
+          <Route path="/project/mnema" element={<MnemaPage />} />
+          <Route path="/about" element={<div>About Page</div>} />
         </Routes>
       </main>
     </Router>
