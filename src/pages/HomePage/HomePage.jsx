@@ -44,7 +44,7 @@ const HomePage = () => {
               alt="Brainflix"
               className="homepage__project-image"
             />
-            <h3 className="homepage__project-title">Brainflix</h3>
+            <h3 className="homepage__project-title">BrainFlix: Video Streaming Platform Prototype</h3>
             <p className="homepage__project-summary">
               A video streaming platform built with React. A language learning
               application using mnemonics and AI.

@@ -1,5 +1,5 @@
 .homepage {
-  padding: 4rem 25%;
+  padding: 4rem 26%;
 
   &__intro {
     text-align: center;
@@ -29,7 +29,7 @@
   &__project-card {
     display: flex;
     flex-direction: column;
-    width: calc(50% - 4rem);
+    width: calc(53% - 4rem);
     text-decoration: none;
     color: #333;
 
@@ -61,7 +61,7 @@
   }
 
   &__project-title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 0rem;
     font-weight: 600;
   }
