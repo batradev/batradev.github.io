@@ -56,7 +56,7 @@ const HomePage = () => {
               alt="Bandsite"
               className="homepage__project-image"
             />
-            <h3 className="homepage__project-title">Bandsite</h3>
+            <h3 className="homepage__project-title">BandSite: Responsive Website for a Music Band</h3>
             <p className="homepage__project-summary">
               A band website showcasing music and events. A language learning
               application using mnemonics and AI.
