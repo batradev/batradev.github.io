@@ -191,7 +191,7 @@ const MnemaPage = () => {
         </p>
       </section>
 
-      <div className="mnema-page__images">
+      {/* <div className="mnema-page__images">
         {images.map((image, index) => (
           <img
             key={index}
@@ -201,7 +201,7 @@ const MnemaPage = () => {
             onClick={() => openModal(image)}
           />
         ))}
-      </div>
+      </div> */}
 
       {isModalOpen && (
         <div className="mnema-page__modal" onClick={closeModal}>

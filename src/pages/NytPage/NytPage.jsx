@@ -57,19 +57,16 @@ const NytPage = () => {
           <strong>Frontend Development:</strong> Focused on creating a visual
           experience that fully replicated our proposed feature as demonstrated
           in mockups.
-        </p>
-        <p className="nyt-page__text">
+          <br />
           <strong>Backend Integration Ideas:</strong> Proposed concepts for
           backend implementation, highlighting possibilities for
           personalization, data collection, and real-time analytics to enhance
           user engagement.
-        </p>
-        <p className="nyt-page__text">
+          <br />
           <strong>Collaboration:</strong> Worked closely with UX designers and
           data scientists to ensure technical feasibility and alignment with
           user research findings.
-        </p>
-        <p className="nyt-page__text">
+          <br />
           <strong>Marketing Campaign Pitch:</strong> Creation of a marketing
           pitch to effectively communicate the value proposition of Daily Bites
           to stakeholders.
@@ -141,12 +138,12 @@ const NytPage = () => {
           >
             View Prototype
           </a>
-        </p>
-      </section>
-
-      <section className="nyt-page__section">
-        <p className="nyt-page__text">
-          <a href={pitchPDF} download className="nyt-page__link">
+          <br />
+          <a
+            href={pitchPDF}
+            download="NYT_Marketing_Pitch.pdf"
+            className="nyt-page__link"
+          >
             Download Marketing Pitch (PDF)
           </a>
         </p>

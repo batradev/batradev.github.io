@@ -33,8 +33,9 @@ const HomePage = () => {
               Mnema: Mnemonic Language Learning App
             </h3>
             <p className="homepage__project-summary">
-              A full-stack language learning application utilizing mnemonics and
-              AI to enhance users' vocabulary retention.
+              A Capstone project: A full-stack language learning application
+              leveraging mnemonics to help users memorize new vocabulary
+              more effectively.
             </p>
           </Link>
           <Link to="/project/brainflix" className="homepage__project-card">
