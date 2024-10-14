@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import mnemaImg from "../../assets/mnema.png";
 import brainflixImg from "../../assets/brainflix.png";
 import bandsiteImg from "../../assets/bandsite.png";
-import nytImg from "../../assets/nyt-daily-bites.png";
+import nytImg from "../../assets/nyt.png";
 import instockImg from "../../assets/instock.png";
 import emailIcon from "../../assets/gmail.webp";
 import linkedinIcon from "../../assets/linkedin.png";
@@ -16,9 +16,8 @@ const HomePage = () => {
       <section className="homepage__intro">
         <h1 className="homepage__title">Hi, I'm Yulia</h1>
         <p className="homepage__description">
-          I'm a software developer with a passion I'm a software developer with
-          a passion for creating engaging web applications. Explore my projects
-          below.
+          I'm a software developer with a passion for solving complex problems
+          through technology. Explore my projects below.
         </p>
       </section>
 
@@ -34,8 +33,8 @@ const HomePage = () => {
               Mnema: Mnemonic Language Learning App
             </h3>
             <p className="homepage__project-summary">
-              A language learning application using mnemonics and AI. A language
-              learning application using mnemonics and AI.
+              A full-stack language learning application utilizing mnemonics and
+              AI to enhance users' vocabulary retention.
             </p>
           </Link>
           <Link to="/project/brainflix" className="homepage__project-card">
@@ -44,10 +43,13 @@ const HomePage = () => {
               alt="Brainflix"
               className="homepage__project-image"
             />
-            <h3 className="homepage__project-title">BrainFlix: Video Streaming Platform Prototype</h3>
+            <h3 className="homepage__project-title">
+              BrainFlix: Video Streaming Platform Prototype
+            </h3>
             <p className="homepage__project-summary">
-              A video streaming platform built with React. A language learning
-              application using mnemonics and AI.
+              A full-stack application simulating a video streaming service,
+              featuring video playback, upload functionality, and dynamic
+              content rendering.
             </p>
           </Link>
           <Link to="/project/bandsite" className="homepage__project-card">
@@ -56,10 +58,12 @@ const HomePage = () => {
               alt="Bandsite"
               className="homepage__project-image"
             />
-            <h3 className="homepage__project-title">BandSite: Responsive Website for a Music Band</h3>
+            <h3 className="homepage__project-title">
+              BandSite: Responsive Website for a Music Band
+            </h3>
             <p className="homepage__project-summary">
-              A band website showcasing music and events. A language learning
-              application using mnemonics and AI.
+              A fully responsive website showcasing a band's music, events, and
+              interactive features like a comments section and shows page.
             </p>
           </Link>
 
@@ -69,27 +73,27 @@ const HomePage = () => {
               alt="Instock"
               className="homepage__project-image"
             />
-            <h3 className="homepage__project-title">InStock: Team Development Project</h3>
+            <h3 className="homepage__project-title">
+              InStock: Team Development Project
+            </h3>
             <p className="homepage__project-summary">
-              An inventory management system for efficient tracking. An
-              inventory management system for efficient tracking.
+              A collaborative full-stack inventory management system with
+              features for managing warehouses and inventory items efficiently.
             </p>
           </Link>
-          <Link
-            to="/project/nyt-daily-bites"
-            className="homepage__project-card"
-          >
+          <Link to="/project/nyt" className="homepage__project-card">
             <img
               src={nytImg}
               alt="New York Times Daily Bites"
               className="homepage__project-image"
             />
             <h3 className="homepage__project-title">
-              New York Times Daily Bites
+              Daily Bites: Cross-Team Development Project
             </h3>
             <p className="homepage__project-summary">
-              An interactive platform to engage NYT readers. An inventory
-              management system for efficient tracking.
+              An interactive feature developed as an Industry Project for The
+              New York Times to boost subscriber engagement through quick,
+              bite-sized content.
             </p>
           </Link>
         </div>
