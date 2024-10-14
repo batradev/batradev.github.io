@@ -5,6 +5,7 @@ import MnemaPage from "./pages/MnemaPage/MnemaPage";
 import BrainflixPage from "./pages/BrainflixPage/BrainflixPage";
 import BandsitePage from "./pages/BandsitePage/BandsitePage";
 import InstockPage from "./pages/InstockPage/InstockPage";
+import NytPage from "./pages/NytPage/NytPage";
 import Header from "./components/Header/Header";
 import "./styles/App.scss";
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/project/brainflix" element={<BrainflixPage />} />
           <Route path="/project/bandsite" element={<BandsitePage />} />
           <Route path="/project/instock" element={<InstockPage />} />
+          <Route path="/project/nyt" element={<NytPage />} />
           <Route path="/about" element={<div>About Page</div>} />
         </Routes>
       </main>
