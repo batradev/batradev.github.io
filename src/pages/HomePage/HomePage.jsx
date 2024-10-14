@@ -69,7 +69,7 @@ const HomePage = () => {
               alt="Instock"
               className="homepage__project-image"
             />
-            <h3 className="homepage__project-title">Instock</h3>
+            <h3 className="homepage__project-title">InStock: Team Development Project</h3>
             <p className="homepage__project-summary">
               An inventory management system for efficient tracking. An
               inventory management system for efficient tracking.

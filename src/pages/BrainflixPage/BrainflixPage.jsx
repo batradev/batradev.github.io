@@ -118,7 +118,7 @@ const BrainflixPage = () => {
         <h2 className="brainflix-page__subtitle">Technologies Used</h2>
         <p className="brainflix-page__text">
           <strong>Frontend:</strong> React, React Router DOM, Axios, SASS,
-          JavaScript (ES6+).
+          JavaScript.
           <br />
           <strong>Backend:</strong> Node.js, Express.js, Multer (for file
           handling).
