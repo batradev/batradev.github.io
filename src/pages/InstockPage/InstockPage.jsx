@@ -37,7 +37,7 @@ const InstockPage = () => {
           simulates an application for managing inventories, aimed at addressing
           scalability and performance issues. <br />
           <br />
-          We built a modern React frontend communicating with a robust Express
+          We built a modern React frontend communicating with an Express
           backend, following industry best practices in version control, project
           management, and development workflows.
         </p>
@@ -66,9 +66,9 @@ const InstockPage = () => {
           WarehouseController.js, enhancing user interaction and experience.
           <br />
           <strong>Search Functionality:</strong> Developed the search bar
-          functionality. Although time constraints prevented
-          merging my branch into the main branch before the deadline, this work
-          laid the groundwork for future enhancements.
+          functionality. Although time constraints prevented merging my branch
+          into the main branch before the deadline, this work laid the
+          groundwork for future enhancements.
           <br />
         </p>
       </section>
@@ -145,6 +145,9 @@ const InstockPage = () => {
           </li>
         </ul>
       </section>
+      <p className="homepage__project-capstone">
+        Designed and developed as a project during my studies at BrainStation.
+      </p>
 
       <div className="instock-page__images">
         {images.map((image, index) => (

@@ -1,3 +1,5 @@
+@use "../../styles/partials/global" as *;
+
 .nyt-page {
   padding: 4rem 25%;
 
@@ -36,7 +38,8 @@
     margin-bottom: 1.5rem;
   }
 
-  &__list, &__sublist {
+  &__list,
+  &__sublist {
     margin-bottom: 2rem;
     padding-left: 1.5rem;
     list-style-type: disc;
@@ -89,11 +92,14 @@
   }
 
   .nyt-page__link {
-    color: #007BFF; 
-    text-decoration: none; 
-  
+    color: #007bff;
+    text-decoration: none;
+
     &:hover {
-      text-decoration: underline; 
+      text-decoration: underline;
     }
+  }
+  @include mobile {
+    @include mobile-styles;
   }
 }

@@ -1,3 +1,4 @@
+@use "../../styles/partials/global" as *;
 .instock-page {
   padding: 4rem 25%;
 
@@ -36,7 +37,8 @@
     margin-bottom: 1.5rem;
   }
 
-  &__list, &__sublist {
+  &__list,
+  &__sublist {
     margin-bottom: 2rem;
     padding-left: 1.5rem;
     list-style-type: disc;
@@ -86,5 +88,8 @@
     max-width: 90%;
     max-height: 90%;
     border-radius: 0.5rem;
+  }
+  @include mobile {
+    @include mobile-styles;
   }
 }

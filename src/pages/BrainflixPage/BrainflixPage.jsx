@@ -82,7 +82,7 @@ const BrainflixPage = () => {
             handling that redirects to the home page upon completion.
           </li>
           <li>
-            Enhanced User Interaction: Enabled dynamic updating of video content
+            Dynamic page rendering: Enabled dynamic updating of page content
             through routing when users select different videos.
           </li>
         </ul>
@@ -188,6 +188,9 @@ const BrainflixPage = () => {
           </a>
         </p>
       </section>
+      <p className="homepage__project-capstone">
+      Designed and developed as a project during my studies at BrainStation.
+      </p>
 
       <div className="brainflix-page__images">
         {images.map((image, index) => (

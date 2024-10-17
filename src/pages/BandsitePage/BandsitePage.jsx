@@ -95,6 +95,9 @@ const BandsitePage = () => {
           </a>
         </p>
       </section>
+      <p className="homepage__project-capstone">
+      Designed and developed as a project during my studies at BrainStation.
+      </p>
 
       <div className="bandsite-page__images">
         {images.map((image, index) => (
