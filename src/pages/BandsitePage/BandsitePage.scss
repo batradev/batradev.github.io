@@ -1,3 +1,4 @@
+@use '../../styles/partials/global' as *;
 .bandsite-page {
   padding: 4rem 25%;
 
@@ -86,5 +87,8 @@
     max-width: 90%;
     max-height: 90%;
     border-radius: 0.5rem;
+  }
+  @include mobile {
+    @include mobile-styles;
   }
 }

@@ -125,7 +125,7 @@ const HomePage = () => {
             className="homepage__footer-icon"
           />
         </a>
-        <a href="batrakova.yulia@gmail.com" className="homepage__icon">
+        <a href="mailto: batrakova.yulia@gmail.com" className="homepage__icon">
           <img src={emailIcon} alt="Email" className="homepage__footer-icon" />
         </a>
       </footer>

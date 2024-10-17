@@ -1,0 +1,59 @@
+@use "./variables" as *;
+
+@mixin mobile {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: 768px) and (max-width: 1279px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin mobile-styles {
+  padding: 2rem 5%;
+
+  &__header-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+
+  &__subtitle {
+    font-size: 1.4rem;
+    text-align: left;
+  }
+
+  &__second-subtitle {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  &__text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__images {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__image {
+    width: 100%;
+    margin: 0;
+  }
+}

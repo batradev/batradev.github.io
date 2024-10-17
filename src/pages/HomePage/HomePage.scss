@@ -1,9 +1,13 @@
+@use "../../styles/partials/global" as *;
 .homepage {
-  padding: 4rem 26%; 
+  padding: 4rem 26%;
+  @include tablet {
+    padding: 4rem 16%;
+  }
 
   &__intro {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 3.6rem;
   }
 
   &__title {
@@ -15,7 +19,7 @@
     font-size: 1.4rem;
     color: #555;
     line-height: 1.6;
-    max-width: 50rem; 
+    max-width: 50rem;
     margin: 0 auto;
     padding: 0 5%;
   }
@@ -30,7 +34,7 @@
   &__project-card {
     display: flex;
     flex-direction: column;
-    width: calc(53% - 4rem); 
+    width: calc(53% - 4rem);
     text-decoration: none;
     color: #333;
 
@@ -45,15 +49,15 @@
 
   &__project-image {
     width: 100%;
-    height: 12.5rem; 
+    height: 12.5rem;
     object-fit: cover;
-    border-radius: 0.5rem; 
-    margin-bottom: 0.6rem; 
-    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1); 
+    border-radius: 0.5rem;
+    margin-bottom: 0.6rem;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s;
 
     &:hover {
-      box-shadow: 0 0.375rem 0.625rem rgba(0, 0, 0, 0.15); 
+      box-shadow: 0 0.375rem 0.625rem rgba(0, 0, 0, 0.15);
     }
   }
 
@@ -80,7 +84,53 @@
   }
 
   &__footer-icon {
-    width: 2.1875rem; 
-    height: 2rem; 
+    width: 2.1875rem;
+    height: 2rem;
+  }
+}
+
+@include mobile {
+  .homepage {
+    padding: 2rem 5%;
+
+    &__title {
+      font-size: 2.2rem;
+    }
+
+    &__description {
+      font-size: 1.2rem;
+      padding: 0;
+    }
+
+    &__project-list {
+      gap: 2rem;
+      flex-direction: column;
+    }
+
+    &__project-card {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    &__project-image {
+      height: 10rem;
+    }
+
+    &__project-title {
+      font-size: 1.4rem;
+    }
+
+    &__project-summary {
+      font-size: 1rem;
+    }
+
+    &__footer {
+      margin-top: 3rem;
+    }
+
+    &__footer-icon {
+      width: 1.75rem;
+      height: 1.75rem;
+    }
   }
 }

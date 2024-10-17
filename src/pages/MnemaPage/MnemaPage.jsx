@@ -136,16 +136,20 @@ const MnemaPage = () => {
             focus on visual appeal and responsiveness across different devices.
           </li>
           <li>
-            Database Setup: Effectively designed and set up a MySQL database
-            using Knex.js, ensuring efficient data management.
+            Database as a storage: Effectively designed and set up a MySQL
+            database using Knex.js, ensuring efficient data management.
           </li>
           <li>
-            Comprehensive Documentation: Created well-defined README files for
-            both client and server repositories.
+            Documentation: Created well-defined README files for both client and
+            server repositories.
           </li>
           <li>
             Deployment: Successfully deployed the application, making it
             accessible online for users.
+          </li>
+          <li>
+            Custom Domain: Configured and connected a custom domain to the
+            deployed application.
           </li>
         </ul>
       </section>
@@ -158,6 +162,10 @@ const MnemaPage = () => {
         </p>
         <ul className="mnema-page__list">
           <li>
+            <strong>Cloud Storage for Images:</strong> Store generated images
+            securely in cloud storage to ensure scalability and easy access.
+          </li>
+          <li>
             <strong>Anki Deck Generation:</strong> Explore using the genanki
             Python library to automatically generate Anki decks (.apkg files).
           </li>
@@ -165,10 +173,6 @@ const MnemaPage = () => {
             <strong>Image Generation Optimization:</strong> Generate images in
             batches and use background jobs to optimize cost and user experience
             (using OpenAI batch API).
-          </li>
-          <li>
-            <strong>Cloud Storage for Images:</strong> Store generated images
-            securely in cloud storage to ensure scalability and easy access.
           </li>
           <li>
             <strong>Implement email notifications</strong> to notify users that
@@ -190,18 +194,9 @@ const MnemaPage = () => {
           </a>
         </p>
       </section>
-
-      {/* <div className="mnema-page__images">
-        {images.map((image, index) => (
-          <img
-            key={index}
-            src={image}
-            alt={`Mnema screenshot ${index + 1}`}
-            className="mnema-page__image"
-            onClick={() => openModal(image)}
-          />
-        ))}
-      </div> */}
+      <p className="homepage__project-capstone">
+        Developed as a Capstone project during my studies at BrainStation.
+      </p>
 
       {isModalOpen && (
         <div className="mnema-page__modal" onClick={closeModal}>
