@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dcb9f4be.css",
+    "main.js": "/static/js/main.f2063cf5.js",
+    "static/js/453.ae087724.chunk.js": "/static/js/453.ae087724.chunk.js",
+    "static/media/mnema4.png": "/static/media/mnema4.e702c7f1cad6d718308a.png",
+    "static/media/brainflix.png": "/static/media/brainflix.d1cac6e77a7dbb285b26.png",
+    "static/media/bandsite.png": "/static/media/bandsite.fc8712fa5658dc2bafe8.png",
+    "static/media/nyt2.png": "/static/media/nyt2.0d08bcb1ecf84c0677f1.png",
+    "static/media/brainflix1.png": "/static/media/brainflix1.00a99ce39dead875194c.png",
+    "static/media/brainflix2.png": "/static/media/brainflix2.a6e547fb75f41e6fd3c1.png",
+    "static/media/bandsite3.png": "/static/media/bandsite3.6fc82c27d105ca5dda3c.png",
+    "static/media/brainflix3.png": "/static/media/brainflix3.9b428d3d0c345b635189.png",
+    "static/media/mnema2.png": "/static/media/mnema2.d93e82eb0a20f2548367.png",
+    "static/media/mnema1.png": "/static/media/mnema1.8fe194bd5ea3e53e1316.png",
+    "static/media/nyt.png": "/static/media/nyt.d8e4c428b36e810f8835.png",
+    "static/media/nyt1.png": "/static/media/nyt1.8858c82a7351b03d9dc3.png",
+    "static/media/mnema.png": "/static/media/mnema.f0b6d12cad4373e0fb85.png",
+    "static/media/mnema3.png": "/static/media/mnema3.7f08bfa4333ea0f19131.png",
+    "static/media/nyt3.png": "/static/media/nyt3.70aa0274463250b84dbe.png",
+    "static/media/bandsite1.png": "/static/media/bandsite1.69024e0850925cd2682c.png",
+    "static/media/bandsite2.png": "/static/media/bandsite2.e50267f0a32a409855ac.png",
+    "static/media/instock1.png": "/static/media/instock1.2166585809ba75c1f955.png",
+    "static/media/instock2.png": "/static/media/instock2.89621c3e00abcc55438a.png",
+    "static/media/instock.png": "/static/media/instock.1818b8b3f65658090b26.png",
+    "static/media/instock3.png": "/static/media/instock3.128cc16245c1e9e98990.png",
+    "static/media/daily-bites-pitch.pdf": "/static/media/daily-bites-pitch.ab0d4473916d308dea5b.pdf",
+    "static/media/Yulia_Batrakova_Resume.pdf": "/static/media/Yulia_Batrakova_Resume.19f82424788da7c32f6f.pdf",
+    "static/media/my_photo.jpg": "/static/media/my_photo.74f7923fc49473b6a99b.jpg",
+    "static/media/gmail.webp": "/static/media/gmail.8fece450c33bb72823be.webp",
+    "index.html": "/index.html",
+    "main.dcb9f4be.css.map": "/static/css/main.dcb9f4be.css.map",
+    "main.f2063cf5.js.map": "/static/js/main.f2063cf5.js.map",
+    "453.ae087724.chunk.js.map": "/static/js/453.ae087724.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcb9f4be.css",
+    "static/js/main.f2063cf5.js"
+  ]
+}
