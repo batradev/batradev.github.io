@@ -20,11 +20,11 @@ const AboutPage = () => {
       <p className="about-page__text second">
         Feel free to reach out if you're looking for someone reliable, ready to take on challenges, and passionate about building great applications.
       </p>
-      <p className="about-page__text">
+      {/* <p className="about-page__text">
         <a href={resumePDF} download="Yulia_Batrakova_Resume.pdf" className="about-page__link">
         Download my resume (PDF)
         </a>
-      </p>
+      </p> */}
     </div>
   );
 };

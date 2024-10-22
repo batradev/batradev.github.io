@@ -192,6 +192,24 @@ const MnemaPage = () => {
           <a href="https://mnema.ca" target="_blank" rel="noopener noreferrer">
             mnema.ca
           </a>
+          <br />
+          <strong>Frontend:</strong>{" "}
+          <a
+            href="https://github.com/batradev/yulia-batrakova-mnema"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://github.com/batradev/yulia-batrakova-mnema
+          </a>
+          <br />
+          <strong>Backend:</strong>{" "}
+          <a
+            href="https://github.com/batradev/yulia-batrakova-mnema-server"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://github.com/batradev/yulia-batrakova-mnema-server
+          </a>
         </p>
       </section>
       <p className="homepage__project-capstone">
