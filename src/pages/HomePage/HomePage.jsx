@@ -34,8 +34,8 @@ const HomePage = () => {
             </h3>
             <p className="homepage__project-summary">
               A Capstone project: A full-stack language learning application
-              leveraging mnemonics to help users memorize new vocabulary
-              more effectively.
+              leveraging mnemonics to help users memorize new vocabulary more
+              effectively.
             </p>
           </Link>
           <Link to="/project/brainflix" className="homepage__project-card">
@@ -78,8 +78,8 @@ const HomePage = () => {
               InStock: Team Development Project
             </h3>
             <p className="homepage__project-summary">
-              A collaborative full-stack inventory management system with
-              features for managing warehouses and inventory items efficiently.
+              A comprehensive full-stack inventory management system with
+              features for efficiently managing warehouses and inventory items.
             </p>
           </Link>
           <Link to="/project/nyt" className="homepage__project-card">

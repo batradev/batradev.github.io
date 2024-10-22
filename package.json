@@ -20,7 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b pages -d build"
+    "pre-deploy-cleanup": "node node_modules/gh-pages/bin/gh-pages-clean.js",
+    "deploy": "npm run pre-deploy-cleanup && gh-pages -b pages -d build"
   },
   "eslintConfig": {
     "extends": [
